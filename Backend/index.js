@@ -5,7 +5,6 @@ let bodyParser=require("body-parser");
 
 const employeeRoute = require("./routes/employeeroutes");
 const salaryRoute=require("./routes/salaryroutes")
-const newsRoute=require("./routes/newsroutes")
 mongoose.connect("mongodb://127.0.0.1:27017/Emp")
 .then((x)=>{
     console.log(`Connected to Mongo! Database name:"${x.connections[0].name}"`,);
@@ -23,7 +22,6 @@ app.use(
 app.use(cors());
 app.use("/employee",employeeRoute);
 app.use("/salary",salaryRoute)
-app.use("/news",newsRoute)
 
 const port=4000;
 app.listen(port,()=>{
