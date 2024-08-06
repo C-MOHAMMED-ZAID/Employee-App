@@ -26,13 +26,7 @@ function MenuBar() {
           <a href={"/salary-list"} className='nav-link'>Salary List</a>
         </li>
 
-        <li className='nav-item'>
-          <a href={"/create-news"} className='nav-link'>Create News</a>
-          </li>
-
-          <li className='nav-item'>
-          <a href={"/daily-news"} className='nav-link'>Daily News</a>
-          </li>
+        
       </ul>
     </div>
   </div>
