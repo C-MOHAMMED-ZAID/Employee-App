@@ -18,7 +18,7 @@ function CreateEmployee() {
   }
   const onSubmit=(e)=>{
     e.preventDefault();
-    axios.post("http://localhost:4000/employee/create-employee",userForm)
+    axios.post("http://localhost:4000/employees/create-employee",userForm)
     .then((res)=>{
       console.log(res.data);
       setUserForm({
