@@ -23,7 +23,6 @@ function App() {
           <Route path='/edit-salary/:id' element={<Editsalary/>}></Route>
         </Routes>
       </Router>
-    <Footer></Footer>
     </div>
   )
 }
