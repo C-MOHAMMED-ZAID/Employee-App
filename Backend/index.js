@@ -20,8 +20,9 @@ app.use(
     }),
 );
 app.use(cors());
-app.use("/employee",employeeRoute);
+app.use("/employees",employeeRoute);
 app.use("/salary",salaryRoute)
+
 
 const port=4000;
 app.listen(port,()=>{
