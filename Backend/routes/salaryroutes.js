@@ -1,7 +1,7 @@
 const express=require("express");
 const router=express.Router();
 
-let salarySchema=require("../models/Salary");
+let salarySchema=require("../models/salary");
 const Employee=require('../models/Employee')
 
 router.route("/create-salary").post(async(req,res,next)=>{
