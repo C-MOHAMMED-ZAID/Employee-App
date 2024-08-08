@@ -12,7 +12,7 @@ function MenuBar() {
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/create-employee" >Create Employee</a>
+          <a class="nav-link active" aria-current="page" href="/CreateEmployee" >Create Employee</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/EmployeeList">Employee List</a>
@@ -26,7 +26,6 @@ function MenuBar() {
           <a href={"/salary-list"} className='nav-link'>Salary List</a>
         </li>
 
-        
       </ul>
     </div>
   </div>
